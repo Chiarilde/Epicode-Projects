@@ -5,7 +5,7 @@
     <mostra categoria="Arte Contemporanea" esterno=false>
         <titolo>"La magia dei riflessi"</titolo>
         <prezzo>6.50</prezzo>
-        <ID_museo>Mu01</ID_museo>
+        <ID_museo>"Mu01"</ID_museo>
         <curatore>"Paolo Rossi"</curatore>
         <num_sale>5</num_sale>
         <lingua>"ita"</lingua>
@@ -13,7 +13,7 @@
     <mostra categoria="Scultura" esterno=false>
         <titolo>"Dare vita alle forme"</titolo>
         <prezzo>12</prezzo>
-        <ID_museo>Mu02</ID_museo>
+        <ID_museo>"Mu02"</ID_museo>
         <curatore>"Joaquin Mirandola"</curatore>
         <num_sale>7</num_sale>
         <lingua>"eng"</lingua>
@@ -21,7 +21,7 @@
     <mostra categoria="Arte antica" esterno=true>
         <titolo>"Arte Etrusca in Toscana"</titolo>
         <prezzo>8</prezzo>
-        <ID_museo>Mu03</ID_museo>
+        <ID_museo>"Mu03"</ID_museo>
         <curatore>"Pablo Mural"</curatore>
         <num_sale>5</num_sale>
         <lingua>"ita"</lingua>
@@ -29,7 +29,7 @@
     <mostra categoria="Oggettistica" esterno=false>
         <titolo>"Oggetti del passato"</titolo>
         <prezzo>4</prezzo>
-        <ID_museo>Mu04</ID_museo>
+        <ID_museo>"Mu04"</ID_museo>
         <curatore>"Anna Pollis"</curatore>
         <num_sale>3</num_sale>
         <lingua>"ita"</lingua>
@@ -37,7 +37,7 @@
     <mostra categoria="Arte contemporanea" esterno=false>
         <titolo>"Ninfee e Giardini"</titolo>
         <prezzo>7.9</prezzo>
-        <ID_museo>Mu05</ID_museo>
+        <ID_museo>"Mu05"</ID_museo>
         <curatore>"Angelina Popova"</curatore>
         <num_sale>10</num_sale>
         <lingua>"eng"</lingua>
@@ -45,7 +45,7 @@
     <mostra categoria="Scultura" esterno=true>
         <titolo>"David e affini"</titolo>
         <prezzo>10</prezzo>
-        <ID_museo>Mu06</ID_museo>
+        <ID_museo>"Mu06"</ID_museo>
         <curatore>"Antonio Marella"</curatore>
         <num_sale>17</num_sale>
         <lingua>"ita"</lingua>
@@ -53,7 +53,7 @@
     <mostra categoria="Arte antica" esterno=false>
         <titolo>"Il passato artistico di Giulio Cesare"</titolo>
         <prezzo>7</prezzo>
-        <ID_museo>Mu07</ID_museo>
+        <ID_museo>"Mu07"</ID_museo>
         <curatore>"Marcello Puntasecca"</curatore>
         <num_sale>10</num_sale>
         <lingua>"ita"</lingua>
@@ -61,7 +61,7 @@
     <mostra categoria="Scultura" esterno=false>
         <titolo>"Geni del marmo"</titolo>
         <prezzo>8.20</prezzo>
-        <ID_museo>Mu08</ID_museo>
+        <ID_museo>"Mu08"</ID_museo>
         <curatore>"Lucia Corrente"</curatore>
         <num_sale>15</num_sale>
         <lingua>"eng"</lingua>
@@ -69,7 +69,7 @@
     <mostra categoria="Oggettistica" esterno=true>
         <titolo>"Oggetti del futuro 2.0"</titolo>
         <prezzo>"Come eravamo"</prezzo>
-        <ID_museo>Mu09</ID_museo>
+        <ID_museo>"Mu09"</ID_museo>
         <curatore>"Paolo de Paolis"</curatore>
         <num_sale>12</num_sale>
         <lingua>"ita"</lingua>
@@ -77,7 +77,7 @@
     <mostra categoria="Moda tessile" esterno=false>
         <titolo>"Dal corsetto ottocentesco allo stilismo moderno"</titolo>
         <prezzo>18</prezzo>
-        <ID_museo>Mu10</ID_museo>
+        <ID_museo>"Mu10"</ID_museo>
         <curatore>"Roberta Boscolo"</curatore>
         <num_sale>20</num_sale>
         <lingua>"ita"</lingua>
