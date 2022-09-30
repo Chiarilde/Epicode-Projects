@@ -1,0 +1,62 @@
+{
+  "gennaio": {
+    "visitatori_totali": 31000,
+    "media_giornaliera": 1000,
+    "fascia_eta": { "over_65": 18000, "under_25": 3000 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 698, "incasso": 25000}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 3456, "incasso": 15000}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 19090, "incasso": 17000}]
+  },
+  "febbraio": {
+    "visitatori_totali": 52345,
+    "media_giornaliera": 1235,
+    "fascia_eta": { "over_65": 1200, "under_25": 2300 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 3566, "incasso": 13000}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 3409, "incasso": 1450}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 450, "incasso": 12399}]
+  },
+  "marzo": {
+    "visitatori_totali": 19999,
+    "media_giornaliera": 3470,
+    "fascia_eta": { "over_65": 15000, "under_25": 210 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 4500, "incasso": 23000}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 4500, "incasso": 3455}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 5444, "incasso": 10000}]
+  },
+  "aprile": {
+    "visitatori_totali": 20000,
+    "media_giornaliera": 5567,
+    "fascia_eta": { "over_65": 12000, "under_25": 300 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 5688, "incasso": 30000}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 456, "incasso": 12000}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 4599, "incasso": 8766}]
+  },
+  "maggio": {
+    "visitatori_totali": 35000,
+    "media_giornaliera": 12000,
+    "fascia_eta": { "over_65": 30000, "under_25": 1000 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 11000, "incasso": 45000}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 5433, "incasso": 17888}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 5000, "incasso": 9000}]
+  },
+  "giugno": {
+    "visitatori_totali": 43000,
+    "media_giornaliera": 17000,
+    "fascia_eta": { "over_65": 40000, "under_25": 1200 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 6500, "incasso": 11900}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 4577, "incasso": 16555}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 7688, "incasso": 15000}]
+  },
+  "luglio": {
+    "visitatori_totali": 45000,
+    "media_giornaliera": 23000,
+    "fascia_eta": { "over_65": 41000, "under_25": 500 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 12999 , "incasso": 9999}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 6755, "incasso": 18999}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 8766, "incasso": 18999}]
+  },
+  "agosto": {
+    "visitatori_totali": 50000,
+    "media_giornaliera": 25000,
+    "fascia_eta": { "over_65": 35000, "under_25": 1000 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 26000, "incasso": 15000}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 7654, "incasso": 19088}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 8977, "incasso": 19888}]
+  },
+  "settembre": {
+    "visitatori_totali": 55000,
+    "media_giornaliera": 34000,
+    "fascia_eta": { "over_65": 45000, "under_25": 1030 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 13444, "incasso": 7866}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 6755, "incasso": 18766}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 9088, "incasso": 25666}]
+  },
+  "ottobre": {
+    "visitatori_totali": 32000,
+    "media_giornaliera": 12997,
+    "fascia_eta": { "over_65": 29000, "under_25": 1000 },
+    "musei": [{ "nome_museo": "Ca' Pesaro", "ID_museo": "Mu01", "visitatori_museo": 10999, "incasso": 5000}, { "nome_museo": "Ca' Rezzonico", "ID_museo": "Mu02", "visitatori_museo": 7666, "incasso": 20000}, { "nome_museo": "Palazzo Ducale", "ID_museo": "Mu03", "visitatori_museo": 10000, "incasso": 30000}]
+  }
+}
