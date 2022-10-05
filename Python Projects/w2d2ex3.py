@@ -1,11 +1,9 @@
 l_benzina = float(input('Quant\'è la capacità del serbatoio ?'))
 km_l = float(input('Quanti km fai con un litro ?'))
 
-while True:
-    if km_l < 1:
+while km_l < 1:
        print('La capacità non può esistere')
        km_l = float(input('Quanti km fai con un litro ?'))
-    break
 
 price = float(input('Quanto costa la benzina al litro ?'))
 
