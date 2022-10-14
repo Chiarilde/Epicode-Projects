@@ -105,14 +105,48 @@ media_in(nord_america, 'nuove_morti_per_milione')
 
 #creazione di due liste di Paesi da popolare con la percentuale dei vaccinati
 
-italia_vaccinated = []
-gran_bretagna_vaccinated = []
 
-for row in italia:
-    if row['percentuale_vaccinati'] == '':
-        row['percentuale_vaccinati'] = 0
-    italia_vaccinated.append({'percentuale': float(row['percentuale_vaccinati']), 'data': row['data']})
+def picco_vacc(arg1):
+    liste_vacc = []
+    for row in arg1:
+        if row['percentuale_vaccinati'] == '':
+            row['percentuale_vaccinati'] = 0
+        liste_vacc.append({'percentuale': float(row['percentuale_vaccinati']), 'data': row['data']})
+    sorted_list = sorted(liste_vacc, key=lambda x: x['percentuale'], reverse=True)
+    perc = sorted_list[0].get('percentuale')
 
-first_occurence = next(item for item in italia_vaccinated if item['percentuale'] == 85.82)
+    first_occurence = next(item for item in sorted_list if item['percentuale'] == perc)
+    if arg1 == italia or gran_bretagna:
+        luogo = (arg1[0].get('paese'))
+    else:
+        luogo = (arg1[0].get('continente'))
 
-print('La massima percentuale di vaccinati in Italia è di: ' + str(first_occurence['percentuale']) + ' e si è raggiunta'' in data ' + str(first_occurence['data']))
+    data_split = first_occurence['data'].split("-")
+    data_reverse = []
+    data_reverse.append(data_split[2])
+    data_reverse.append(data_split[1])
+    data_reverse.append(data_split[0])
+    data_join = "-".join(data_reverse)
+    print(f'La massima percentuale di vaccinati in {luogo} è di: {perc} e si è raggiunta in data {data_join}')
+
+picco_vacc(gran_bretagna)
+picco_vacc(italia)
+picco_vacc(europa)
+picco_vacc(nord_america)
+
+def mediana_in(lista_paese,arg2):      #definizione di funzione chiamata media_in con due argomenti, lista_paese e la key da analizzare
+
+    if arg2 == 'nuovi_casi_per_milione':
+        unita_di_misura = ' nuovi casi'  #unità di misura varia il proprio valore da nuovi casi a morti a seconda della key utilizzata
+    else:
+        unita_di_misura = ' morti'
+
+    for i in lista_paese:  #qui si applica 0 per ogni volta che il valore è una stringa vuota
+        if i[arg2] == '':
+            i[arg2] = 0
+    sorted_list = sorted(lista_paese, key=lambda x: x[arg2])
+
+    indice = len(sorted_list)/2
+    print(indice)
+
+mediana_in(italia, 'nuovi_casi_per_milione')
