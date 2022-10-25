@@ -105,6 +105,7 @@ media_in(nord_america, 'nuove_morti_per_milione')
 
 #creazione di due liste di Paesi da popolare con la percentuale dei vaccinati
 
+<<<<<<< HEAD
 
 def picco_vacc(arg1):
     liste_vacc = []
@@ -150,3 +151,17 @@ def mediana_in(lista_paese,arg2):      #definizione di funzione chiamata media_i
     print(indice)
 
 mediana_in(italia, 'nuovi_casi_per_milione')
+=======
+italia_vaccinated = []
+gran_bretagna_vaccinated = []
+
+for row in italia:
+    if row['percentuale_vaccinati'] == '':
+        row['percentuale_vaccinati'] = 0
+    italia_vaccinated.append({'percentuale': float(row['percentuale_vaccinati']), 'data': row['data']})
+
+first_occurence = next(item for item in italia_vaccinated if item['percentuale'] == 85.82)
+
+print('La massima percentuale di vaccinati in Italia è di: ' + str(first_occurence['percentuale']) + ' e si è raggiunta'' in data ' + str(first_occurence['data']))
+
+>>>>>>> 18695ab5924d4b25c1530ba5c176f3afc839234b

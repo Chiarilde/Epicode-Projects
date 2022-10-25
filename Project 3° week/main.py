@@ -40,6 +40,8 @@ def close_connection(connection):
 
 
 # FUNZIONI PER COMPORRE DELLE QUERY DINAMICHE CON CURSOR
+
+# FUNZIONE SEMPLICE
 # e.g. query1(lista_colonne=['nome', 'cognome'], nome_tabella='utente', lista_ordina=['nome', 'DESC'], condizione='nome LIKE %A', distinct=True)
 def query1(lista_colonne, nome_tabella, lista_ordina=None, condizione=None, distinct=False):
     if distinct is False:
@@ -65,7 +67,7 @@ def query1(lista_colonne, nome_tabella, lista_ordina=None, condizione=None, dist
     for i in result:
         print(i)
 
-
+# FUNZIONE PER JOIN DUE TABELLE
 # e.g. join_tables(lista_colonne11=['citta'], nome_tabella1='indirizzo', lista_colonne2=[], nome_tabella2='utente', attr_comune='cognome', distinct=True)
 def join_tables(lista_colonne1, nome_tabella1, nome_tabella2, attr_comune, lista_colonne2=None, condizione=None, distinct=False):
     if distinct:
@@ -113,7 +115,7 @@ def query2(nome_colonna, count, nome_tabella1, nome_tabella2, attr_comune, group
 
 # CHIAMATE AI METODI
 
-# 1-Visualizza una lista di nomi e cognomi di tutti i clienti
+# 1-Visualizza una lista di nomi e cognomi di tutti i clienti senza ripetizioni
 print("----------QUERY 1----------")
 query1(['nome', 'cognome'], 'indirizzo', distinct=True)
 print("\n")
@@ -124,7 +126,7 @@ utente = pd.read_sql("utente", db_connection)
 print(utente.loc[:, ['nome', 'cognome']])
 print("\n")
 
-# 2-Visualizza una lista di cognomi in ordine ascendente
+# 2-Visualizza una lista di cognomi in ordine ascendente senza ripetizioni
 print("----------QUERY 2----------")
 query1(['cognome'], 'utente', ['cognome', 'asc'], distinct=True)
 

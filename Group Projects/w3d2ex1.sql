@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+SELECT NomeCantante from CANTANTE join ESECUZIONE on CodiceReg where NomeCantante LIKE 'D%';
+SELECT TitoloAlbum from DISCO,ESECUZIONE join on DISCO.ANNO=ESECUZIONE.ANNO where Anno is NULL;
+
+>>>>>>> 18695ab5924d4b25c1530ba5c176f3afc839234b
 
 
 
@@ -8,7 +14,11 @@ JOIN AUTORE ON ESECUZIONE.TitoloCanz=AUTORE.TitoloCanz
 WHERE Nome=NomeCantante AND Nome LIKE 'D%'; 
 
 
+<<<<<<< HEAD
 
+=======
+select TitoloAlbum from DISCO,ESECUZIONE on DISCO.ANNO=ESECUZIONE.ANNO where Anno is null;
+>>>>>>> 18695ab5924d4b25c1530ba5c176f3afc839234b
 
 
 SELECT TitoloAlbum
